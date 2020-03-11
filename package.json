@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Bytefield/API.git"
   },
-  "keywords": ["React", "MongoDB", "Express"],
+  "keywords": [
+    "React",
+    "MongoDB",
+    "Express"
+  ],
   "author": "Miguel Ramos",
   "license": "ISC",
   "bugs": {
@@ -22,6 +26,9 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "json-web-token": "^3.2.0",
+    "mongoose": "^5.9.4",
     "react-bootstrap": "^1.0.0-beta.17"
   }
 }
