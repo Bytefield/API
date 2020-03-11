@@ -1,0 +1,24 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Connect to an API and perform CRUD operations on it.  Using mongodb, react, express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bytefield/API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bytefield/API/issues"
+  },
+  "homepage": "https://github.com/Bytefield/API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {}
+}
