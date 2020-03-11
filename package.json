@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/Bytefield/API.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["React", "MongoDB", "Express"],
+  "author": "Miguel Ramos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bytefield/API/issues"
