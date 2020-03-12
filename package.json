@@ -4,6 +4,9 @@
   "description": "Connect to an API and perform CRUD operations on it.  Using mongodb, react, express",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,9 +29,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "core-js": "^3.6.4",
     "express": "^4.17.1",
+    "jquery": "^3.4.1",
     "json-web-token": "^3.2.0",
     "mongoose": "^5.9.4",
-    "react-bootstrap": "^1.0.0-beta.17"
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0"
   }
 }
