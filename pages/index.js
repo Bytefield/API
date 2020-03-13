@@ -3,24 +3,23 @@ import Link from 'next/link'
 
 const PostLink = props => (
     <li>
-        <Link href={ `/post?title=${ props.title }` }>
+        <Link href={ `/post?title=${ props.title }&content=${ props.content }` }>
             <a>{ props.title }</a>
         </Link>
     </li>
 )
 
-const content = (
-    <div>
-        <h1>My blog</h1>
-        <ul>
-            <PostLink title="Hello Next.js" />
-            <PostLink title="Second post" />
-            <PostLink title="Third post" />
-        </ul>        
-    </div>    
-)
-
 export default function Index() {
-    return (<Layout content={ content } />
+    return (
+        <Layout content={
+            <div>
+                <h1>My blog</h1>
+                <ul>
+                    <PostLink title="Hello Next.js" content="some content here" />
+                    <PostLink title="Second post" content="some content here 2" />
+                    <PostLink title="Third post" content="some content here 3" />
+                </ul> 
+            </div>
+        }/>
     )
 }
