@@ -7,7 +7,7 @@ export default function Post() {
     return <Layout content={
         <div>
             <h1>{router.query.id}</h1>
-            <p>This is the blog post content.</p>
+            <p>{ router.query.content }</p>
         </div>        
     } />
 }
