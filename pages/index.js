@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const PostLink = props => (
     <li>
-        <Link href={ `/post?title=${ props.title }&content=${ props.content }` }>
+        <Link href={ `/p/${ props.title }?content=${ props.content }` }>
             <a>{ props.title }</a>
         </Link>
     </li>
